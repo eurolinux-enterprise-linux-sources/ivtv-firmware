@@ -4,7 +4,7 @@
 Summary: Firmware for the Hauppauge PVR 250/350/150/500/USB2 model series
 Name: ivtv-firmware
 Version: 20080701
-Release: 25%{?dist}
+Release: 26%{?dist}
 Epoch: 2
 License: Redistributable, no modification permitted
 Group: System Environment/Kernel
@@ -51,6 +51,9 @@ rm -rf %{buildroot}
 /lib/firmware/%{name}-license-*.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2:20080701-26
+- Mass rebuild 2013-12-27
+
 * Mon Jul 08 2013 Aristeu Rozanski <aris@redhat.com> - 2:20080701-25.el7
 - Rebuilt with proper dist tag (874995)
 
